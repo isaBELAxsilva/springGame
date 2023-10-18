@@ -1,0 +1,53 @@
+
+
+
+.a {
+  /* global 94%+ browsers support */
+  background-image: linear-gradient(to left, rgb(30, 2, 35) , rgb(206, 59, 255) );
+  background-size: 500% 100%;
+  animation: degrade-animado 3s infinite alternate;
+}
+
+
+@keyframes degrade-animado {
+  0%{
+    background-position-x: 0%;
+  }
+  100%{
+    background-position-x: 100%;
+  }
+}
+
+
+.t {
+    font-family: monospace;
+    color: aliceblue;
+}
+
+
+
+  /* botao */
+
+  button{
+    border-radius:  30px;
+    border-color: aliceblue;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: 15px;
+    transition: 1s;
+  }
+
+  button:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    background-color: white;
+    color: blueviolet;
+  }
+  h1:hover{
+    transform: scale(1.3);
+    transition: 1s;
+  }
+  h1{
+    transition: 1s;
+  }
+
